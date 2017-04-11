@@ -1,4 +1,4 @@
-package me.farfaraway.hackerrank;
+package me.farfaraway.hackerrank.data_structure;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

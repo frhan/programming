@@ -1,4 +1,4 @@
-package me.farfaraway.hackerrank;
+package me.farfaraway.hackerrank.data_structure.array;
 
 /**
  * https://www.hackerrank.com/challenges/2d-array
