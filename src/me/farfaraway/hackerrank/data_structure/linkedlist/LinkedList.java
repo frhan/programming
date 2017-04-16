@@ -1,4 +1,4 @@
-package me.farfaraway.hackerrank.data_structure;
+package me.farfaraway.hackerrank.data_structure.linkedlist;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
@@ -183,12 +183,12 @@ public class LinkedList {
     Node head = headB;
     Node prev = null;
 
-    do{
+    do {
       prev = t;
       t = t.next;
-      head = insertSorted(head,prev);
+      head = insertSorted(head, prev);
 
-    }while (t != null);
+    } while (t != null);
 
     return head;
   }
@@ -226,7 +226,7 @@ public class LinkedList {
     return head;
   }
 
-  int getNode(Node head, int positionFromTail){
+  int getNode(Node head, int positionFromTail) {
     if (head == null)
       return 0;
 
@@ -251,19 +251,19 @@ public class LinkedList {
   }
 
   Node removeDuplicatesFromSorted(Node head) {
-    if(head == null)
+    if (head == null)
       return head;
 
     Node prev = head;
     Node temp = head.next;
 
-    while (temp != null){
-      if (temp.data == prev.data){
+    while (temp != null) {
+      if (temp.data == prev.data) {
         prev.next = temp.next;
         Node n = temp;
         temp = prev.next;
         n = null;
-      }else {
+      } else {
         prev = temp;
         temp = temp.next;
       }
@@ -271,8 +271,8 @@ public class LinkedList {
     return head;
   }
 
-  Node insertTail(Node head,int data) {
-    if(head == null){
+  Node insertTail(Node head, int data) {
+    if (head == null) {
       head = new Node();
       head.data = data;
       head.next = null;
@@ -280,7 +280,7 @@ public class LinkedList {
     }
 
     Node temp = head;
-    while(temp.next != null)
+    while (temp.next != null)
       temp = temp.next;
     Node node = new Node();
     node.data = data;
@@ -290,9 +290,9 @@ public class LinkedList {
     return head;
   }
 
-  Node insertHead(Node head,int x) {
+  Node insertHead(Node head, int x) {
 
-    if(head == null){
+    if (head == null) {
       head = new Node();
       head.data = x;
       head.next = null;
