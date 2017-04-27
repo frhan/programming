@@ -1,4 +1,4 @@
-package me.farfaraway.hackerrank.data_structure.array;
+package me.farfaraway.hackerrank.ds.array;
 
 /**
  * https://www.hackerrank.com/challenges/dynamic-array?h_r=next-challenge&h_v=zen

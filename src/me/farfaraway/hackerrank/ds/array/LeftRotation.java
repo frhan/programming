@@ -1,4 +1,4 @@
-package me.farfaraway.hackerrank.data_structure.array;
+package me.farfaraway.hackerrank.ds.array;
 
 import java.util.Scanner;
 
