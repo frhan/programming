@@ -1,4 +1,4 @@
-package me.ff.solution.hackerrank.datastructure.linkedlist;
+package me.ff.solution.dsa.datastructure.linkedlist;
 
 public class LinkedListImpl<E> implements LinkedList<E> {
 

@@ -1,8 +1,7 @@
 package me.ff.solution;
 
-import me.ff.solution.hackerrank.algorithms.TimeConversion;
-import me.ff.solution.hackerrank.datastructure.linkedlist.LinkedList;
-import me.ff.solution.hackerrank.datastructure.linkedlist.LinkedListImpl;
+import me.ff.solution.dsa.datastructure.linkedlist.LinkedList;
+import me.ff.solution.dsa.datastructure.linkedlist.LinkedListImpl;
 
 public class Main {
 

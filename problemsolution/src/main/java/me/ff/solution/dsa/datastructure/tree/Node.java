@@ -1,4 +1,4 @@
-package me.ff.solution.hackerrank.datastructure.tree;
+package me.ff.solution.dsa.datastructure.tree;
 
 class Node {
     int data;

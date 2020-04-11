@@ -1,9 +1,6 @@
-package me.ff.solution.hackerrank.datastructure.stack;
+package me.ff.solution.dsa.datastructure.stack;
 
-import me.ff.solution.hackerrank.datastructure.linkedlist.LinkedList;
-
-import java.util.ArrayList;
-import java.util.List;
+import me.ff.solution.dsa.datastructure.linkedlist.LinkedList;
 
 public class StackImpl<E> implements Stack<E> {
     LinkedList<E> items;

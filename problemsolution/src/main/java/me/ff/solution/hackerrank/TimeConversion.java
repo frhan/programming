@@ -1,4 +1,4 @@
-package me.ff.solution.hackerrank.algorithms;
+package me.ff.solution.hackerrank;
 
 /*
  * https://www.hackerrank.com/challenges/time-conversion/problem
