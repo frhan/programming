@@ -16,4 +16,9 @@ public class Main {
         linkedList.show();
 
     }
+
+    public void treeTest() {
+        
+
+    }
 }

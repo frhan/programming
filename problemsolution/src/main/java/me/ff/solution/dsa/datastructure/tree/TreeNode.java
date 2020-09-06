@@ -1,11 +1,11 @@
 package me.ff.solution.dsa.datastructure.tree;
 
-class Node {
+class TreeNode {
     int data;
-    Node left;
-    Node right;
+    TreeNode left;
+    TreeNode right;
 
-    public Node(int data) {
+    public TreeNode(int data) {
         this.data = data;
         this.left = null;
         this.right = null;
