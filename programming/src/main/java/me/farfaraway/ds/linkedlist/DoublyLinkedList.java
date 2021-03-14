@@ -1,6 +1,6 @@
 package me.farfaraway.ds.linkedlist;
 
-public class SinglyLinkedList<E> implements LinkedList<E> {
+public class DoublyLinkedList<E> implements LinkedList<E>{
 
     @Override
     public void addFirst(E e) {
